@@ -1,0 +1,31 @@
+{
+    "name": "transmitmessage/php-client-sdk",
+    "type": "library",
+    "description": "PHP Client for using TransmitMessage's API.",
+    "keywords": ["TransmitMessage","API","SDK"],
+    "homepage": "http://developer.transmitmessage.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chito Cascante",
+            "email": "chito@burstsms.com",
+            "homepage": "http://developer.transmitmessage.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "mashape/unirest-php": "~3.0.1",
+        "apimatic/jsonmapper": "~1.3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "TransmitMessageLib\\": "src/"
+        }
+    }
+}
