@@ -1,5 +1,5 @@
 {
-    "name": "transmitmessage/php-client-sdk",
+    "name": "codechito/php-client-sdk",
     "type": "library",
     "description": "PHP Client for using TransmitMessage's API.",
     "keywords": ["TransmitMessage","API","SDK"],
